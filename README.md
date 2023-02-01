@@ -6,9 +6,11 @@ My goal for this project was to create an easy way to generate Hertzsprung-Russe
 
 [Final Diagram with trend lines](./fig_regression.svg)
 
+[View Notebook on Kaggle](https://www.kaggle.com/code/spresto/acm-research-s23)
+
 # How I did it
 
-To do this, I first read the CSV file using Pandas. This created a dataframe that I could then use with Seaborn to create a scatter plot. 
+I first read the CSV file using Pandas. This created a dataframe that I could then use with Seaborn to create a scatter plot. 
 ```python
 star_df = pd.read_csv(get_dataset_path())
 ```
